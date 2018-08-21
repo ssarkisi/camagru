@@ -1,0 +1,113 @@
+html, body
+{
+	background-color: #ebf0f7;
+    height: 100%;
+    margin: 0 0;
+	padding: 0 0;
+	font-family: Arial;
+}
+html::-webkit-scrollbar {
+	width: 0;
+}
+body::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+}
+
+.header {
+	background-color: #237b90;
+	width: 100%;
+	height: 5%;
+	position: fixed;
+	z-index: 9999;
+	margin: 0 0;
+	padding: 0 0;
+	top: 0px;
+
+}
+
+.footer {
+	background-color: #393539;
+	width: 100%;
+	height: 5%;
+	position: fixed;
+	z-index: 9999;
+	margin: 0 0;
+	padding: 0 0;
+	top: 95%;
+}
+
+.middle {
+    position: relative;
+	top: 6.5vh;
+	height: 87%;
+}
+
+.left {
+	background-color: #93c3c7;
+	border-radius: 3px;
+	width: 15%;
+	height: 96%;
+	text-align: center;
+	padding: 1% 0;
+	margin: 0 1%;
+	float: left;
+}
+
+.right {
+	background-color: transparent;
+	width: 100%;
+	height: 96%;
+	text-align: left;
+	padding: 1% 0;
+	margin: 0 1%;
+}
+
+.input-login {
+	width: 70%;
+	height: 2vh;
+	margin: 2% 15%;
+	position: relative;
+	border: solid 1px;
+	border-radius: 2px;
+	border-color: #b6d0d8;
+	font-size: 1.3vmin;
+	background-color: transparent;
+	color: #f9e8ef;
+	outline: none;
+}
+.input-submit {
+	width: 70%;
+	height: 2.5vh;
+	border: solid 1px;
+	border-radius: 2px;
+	border-color: #b6d0d8;
+	font-size: 1.3vmin;
+	margin: 4% 15% 0 15%;
+	background-color: transparent;
+	color: #f9e8ef;
+	outline: none;
+}
+.input-submit:hover {
+	background-color: #c1dee7;
+	transition: background-color 1s;
+}
+.input-submit:active {
+	position: relative;
+	top: 0.2vh;
+}
+
+input::-webkit-input-placeholder {
+    color: #8e9fbb;
+}
+
+.input-new {
+	font-size: 1vmin;
+	text-decoration: none;
+}
+.input-new:hover {
+	font-size: 1.2vmin;
+	transition: font-size 1s;
+}
+
+

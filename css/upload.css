@@ -1,0 +1,29 @@
+.upload-form {
+	background-color: transparent;
+	text-align: center;
+	height: 6vh;
+	font-size: 1.3vmin;
+}
+
+.file::-webkit-file-upload-button {
+	outline: none;
+	border: solid 1px;
+	border-radius: 5px;
+	background: #237b90;
+	color: #f8f8f5;
+	padding: 0.8vmin 2.5vmin;
+}
+
+.file::-webkit-file-upload-button:hover {
+	background: #1b6577;
+}
+
+.upload-submit {
+	width: 15vmin;
+	color: #237b90;
+	margin: 1% 1%;
+}
+input[type=file] {
+	width: 30vmin;
+	font-size: 1.3vmin;
+}

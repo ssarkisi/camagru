@@ -1,0 +1,49 @@
+.bar-element {
+	position: relative;
+	float: left;
+	height: 100%;
+	margin: 0 1%;
+	padding: 0 1%;
+	border-radius: 3px;
+	color: #f8f8f5;
+	cursor: pointer;
+}
+.bar-element:hover {
+	background-color: #1b6577;
+	transition: background-color 1s;
+}
+
+.text {
+	font-size: 2vmin;
+	position: relative;
+	top: 20%;
+	cursor: pointer;
+}
+.create-account {
+	font-size: 1.7vh;
+}
+
+.bar-element-logout {
+	width: 3.6vmin;
+	height: 3.6vmin;
+	border-radius: 50%;
+	background-color: #f891a0;
+	padding: 0 0;
+	text-align: center;
+	position: relative;
+	top: 0.5vh;
+}
+.bar-element-logout:hover {
+	background-color: #fa5457;
+}
+.bar-element-logout:active {
+	top: 13%;
+}
+
+.logout {
+	font-size: 2.5vmin;
+	border-radius: 100%;
+	margin: 0 0;
+	padding: 0 0;
+	top: 10%;
+}

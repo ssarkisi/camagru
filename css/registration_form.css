@@ -1,0 +1,27 @@
+.general {
+	background-color: transparent;
+	border-radius: 3px;
+	border: solid 1px;
+	border-color: #b6d0d8;
+	width: 25%;
+	position: absolute;
+	left: calc((100% - (25% / 2)) / 2);
+	padding: 1% 1% 0.2% 1%;
+	text-align: center;
+	font-size: 1vmin;
+	color: #fa5457;
+}
+
+.registration-form {
+	color: #237b90;
+}
+
+.registration-button {
+	color: #237b90;
+	margin: 4% 15% 5% 15%;
+}
+
+.registration-error {
+	margin: 0 0;
+	padding: 0 0;
+}
